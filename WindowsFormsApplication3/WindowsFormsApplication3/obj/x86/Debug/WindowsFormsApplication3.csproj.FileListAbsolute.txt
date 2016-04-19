@@ -1,0 +1,15 @@
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.exe
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.pdb
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.myForm.resources
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.mainMenu.resources
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.engineerForm.resources
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.toolForm.resources
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.QtyEnterForm.resources
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.ConfirmForm.resources
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.ReturnForm.resources
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\吉喆\Desktop\吉喆的文件\VS\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.AdminForm.resources

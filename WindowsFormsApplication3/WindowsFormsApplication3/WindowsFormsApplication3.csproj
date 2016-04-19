@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F2D8283F-5713-420C-969A-DDFAC22A2B97}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication3</RootNamespace>
+    <AssemblyName>WindowsFormsApplication3</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmForm.Designer.cs">
+      <DependentUpon>ConfirmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainMenu.Designer.cs">
+      <DependentUpon>mainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="engineerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="engineerForm.Designer.cs">
+      <DependentUpon>engineerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QtyEnterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QtyEnterForm.Designer.cs">
+      <DependentUpon>QtyEnterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnForm.Designer.cs">
+      <DependentUpon>ReturnForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="toolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="toolForm.Designer.cs">
+      <DependentUpon>toolForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="myForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="myForm.Designer.cs">
+      <DependentUpon>myForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="tool.cs" />
+    <Compile Include="vitual_database.cs" />
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmForm.resx">
+      <DependentUpon>ConfirmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainMenu.resx">
+      <DependentUpon>mainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="engineerForm.resx">
+      <DependentUpon>engineerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QtyEnterForm.resx">
+      <DependentUpon>QtyEnterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnForm.resx">
+      <DependentUpon>ReturnForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="toolForm.resx">
+      <DependentUpon>toolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="myForm.resx">
+      <DependentUpon>myForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\000.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
